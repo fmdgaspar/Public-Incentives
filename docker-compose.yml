@@ -47,8 +47,8 @@ services:
 
   scraper:
     build:
-      context: ./scraper
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: scraper/Dockerfile
     container_name: incentives_scraper
     environment:
       DB_DSN: postgresql+psycopg://postgres:postgres@db:5432/ai_challenge
@@ -60,12 +60,12 @@ services:
       db:
         condition: service_healthy
     volumes:
-      - ./scraper:/app
+      - ./scraper:/app/scraper
       - ./data:/data
       - openai_cache:/cache
     networks:
       - incentives_network
-    command: python -m scraper.scheduler
+    command: python -m scraper.run
 
   prometheus:
     image: prom/prometheus:latest
