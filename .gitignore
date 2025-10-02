@@ -69,8 +69,9 @@ htmlcov/
 # OpenAI cache
 openai_cache/
 
-# Raw scraped data (opcional - se quiser versionar, remover)
+# Scraped data (raw and processed)
 data/raw/
+data/processed/
 data/cache/
 
 # Temporary files
