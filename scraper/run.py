@@ -61,7 +61,7 @@ async def run_scraper():
         output_file = output_dir / "incentives.json"
         
         with open(output_file, 'w', encoding='utf-8') as f:
-            data = [inc.dict() for inc in incentives]
+            data = [inc.model_dump() for inc in incentives]
             json.dump(data, f, indent=2, ensure_ascii=False, default=str)
         
         logger.info("incentives_saved", 
