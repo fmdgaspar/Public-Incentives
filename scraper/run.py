@@ -80,7 +80,7 @@ def main():
     try:
         incentives = asyncio.run(run_scraper())
         
-        print(f"\n✅ Scraping completed successfully!")
+        print(f"\nScraping completed successfully!")
         print(f"   Total incentives scraped: {len(incentives)}")
         print(f"   Output: {PROCESSED_DATA_DIR}/incentives.json")
         

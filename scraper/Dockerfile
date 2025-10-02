@@ -3,7 +3,7 @@ FROM mcr.microsoft.com/playwright/python:v1.40.0-jammy
 WORKDIR /app
 
 # Install Python dependencies
-COPY requirements.txt .
+COPY scraper/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Install Playwright browsers
@@ -19,6 +19,7 @@ RUN mkdir -p /data/raw /data/processed /cache
 ENV PYTHONUNBUFFERED=1
 ENV RAW_DATA_DIR=/data/raw
 ENV PROCESSED_DATA_DIR=/data/processed
+ENV PYTHONPATH=/app
 
 CMD ["python", "-m", "scraper.run"]
 
