@@ -1,0 +1,114 @@
+version: "3.9"
+
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    container_name: incentives_db
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: ${POSTGRES_DB:-ai_challenge}
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./infra/init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - incentives_network
+
+  api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: incentives_api
+    environment:
+      DB_DSN: postgresql+psycopg://postgres:postgres@db:5432/ai_challenge
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      MAX_DAILY_OPENAI_EUR: ${MAX_DAILY_OPENAI_EUR:-20}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+      API_PORT: ${API_PORT:-8000}
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - ./data:/data
+      - openai_cache:/cache
+    networks:
+      - incentives_network
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+
+  scraper:
+    build:
+      context: ./scraper
+      dockerfile: Dockerfile
+    container_name: incentives_scraper
+    environment:
+      DB_DSN: postgresql+psycopg://postgres:postgres@db:5432/ai_challenge
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      MAX_DAILY_OPENAI_EUR: ${MAX_DAILY_OPENAI_EUR:-20}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+      SCRAPER_USER_AGENT: ${SCRAPER_USER_AGENT:-Mozilla/5.0 (compatible; PublicIncentivesBot/1.0)}
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ./scraper:/app
+      - ./data:/data
+      - openai_cache:/cache
+    networks:
+      - incentives_network
+    command: python -m scraper.scheduler
+
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: incentives_prometheus
+    volumes:
+      - ./infra/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus_data:/prometheus
+    ports:
+      - "9090:9090"
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+    networks:
+      - incentives_network
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: incentives_grafana
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+      - GF_USERS_ALLOW_SIGN_UP=false
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./infra/grafana/dashboards:/etc/grafana/provisioning/dashboards
+      - ./infra/grafana/datasources:/etc/grafana/provisioning/datasources
+    ports:
+      - "3000:3000"
+    depends_on:
+      - prometheus
+    networks:
+      - incentives_network
+
+volumes:
+  pgdata:
+    driver: local
+  openai_cache:
+    driver: local
+  prometheus_data:
+    driver: local
+  grafana_data:
+    driver: local
+
+networks:
+  incentives_network:
+    driver: bridge
+
