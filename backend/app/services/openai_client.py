@@ -23,6 +23,7 @@ from backend.app.services.budget_guard import (
 )
 from backend.app.services.openai_cache import OpenAICache
 from backend.app.services.price_tracker import RealTimeCostTracker
+from backend.app.services.document_cost_tracker import document_cost_tracker
 
 logger = structlog.get_logger()
 
@@ -97,6 +98,7 @@ class ManagedOpenAIClient:
         temperature: float = 0.0,
         max_tokens: Optional[int] = None,
         response_format: Optional[Dict] = None,
+        document_id: Optional[str] = None,
         **kwargs
     ) -> Dict[str, Any]:
         """
@@ -223,10 +225,19 @@ class ManagedOpenAIClient:
         else:
             # User specified max_tokens - check if it fits budget
             estimated_cost = estimate_cost(tokens_in, max_tokens, model)
-            if estimated_cost > self.max_per_request_eur:
-                raise BudgetExceededError(
-                    f"Request would cost €{estimated_cost:.4f} > budget €{self.max_per_request_eur}"
-                )
+            
+            # Check budget per document if document_id provided
+            if document_id:
+                if not document_cost_tracker.can_spend(document_id, estimated_cost):
+                    raise BudgetExceededError(
+                        f"Request would cost €{estimated_cost:.4f} > remaining budget for document {document_id}"
+                    )
+            else:
+                # Fallback to per-request budget if no document_id
+                if estimated_cost > self.max_per_request_eur:
+                    raise BudgetExceededError(
+                        f"Request would cost €{estimated_cost:.4f} > budget €{self.max_per_request_eur}"
+                    )
         
         # Make API request
         logger.info(
@@ -295,6 +306,10 @@ class ManagedOpenAIClient:
             from_cache=False
         )
         
+        # Record cost per document if document_id provided
+        if document_id:
+            document_cost_tracker.record_cost(document_id, actual_cost)
+        
         logger.info(
             "openai_response",
             model=model,
@@ -329,7 +344,8 @@ class ManagedOpenAIClient:
     def create_embedding(
         self,
         text: str,
-        model: str = "text-embedding-3-small"
+        model: str = "text-embedding-3-small",
+        document_id: Optional[str] = None
     ) -> Dict[str, Any]:
         """
         Create embedding with caching.
@@ -380,11 +396,18 @@ class ManagedOpenAIClient:
         tokens = self._count_tokens(text)
         estimated_cost = (tokens / 1_000_000) * prices.embedding_per_million
         
-        # Check budget
-        if estimated_cost > self.max_per_request_eur:
-            raise BudgetExceededError(
-                f"Embedding would cost €{estimated_cost:.4f} > budget €{self.max_per_request_eur}"
-            )
+        # Check budget per document if document_id provided
+        if document_id:
+            if not document_cost_tracker.can_spend(document_id, estimated_cost):
+                raise BudgetExceededError(
+                    f"Embedding would cost €{estimated_cost:.4f} > remaining budget for document {document_id}"
+                )
+        else:
+            # Fallback to per-request budget if no document_id
+            if estimated_cost > self.max_per_request_eur:
+                raise BudgetExceededError(
+                    f"Embedding would cost €{estimated_cost:.4f} > budget €{self.max_per_request_eur}"
+                )
         
         # Make request
         response = self.client.embeddings.create(
@@ -423,6 +446,10 @@ class ManagedOpenAIClient:
             cost_eur=actual_cost,
             from_cache=False
         )
+        
+        # Record cost per document if document_id provided
+        if document_id:
+            document_cost_tracker.record_cost(document_id, actual_cost)
         
         logger.info(
             "embedding_created",

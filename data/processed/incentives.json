@@ -15,8 +15,8 @@
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:33:58.496337",
-    "updated_at": "2025-10-02 14:33:58.496340"
+    "created_at": "2025-10-03 19:56:23.199876",
+    "updated_at": "2025-10-03 19:56:23.199877"
   },
   {
     "incentive_id": "507679a72da92202f874e45fdb283be55277ec64",
@@ -34,8 +34,8 @@
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:33:58.591091",
-    "updated_at": "2025-10-02 14:33:58.591096"
+    "created_at": "2025-10-03 19:56:23.280310",
+    "updated_at": "2025-10-03 19:56:23.280310"
   },
   {
     "incentive_id": "db9f1586d3bb21b6566123968ddb225ed7e84c68",
@@ -53,12 +53,12 @@
       "https://www.fundoambiental.pt/postos-de-carregamento-ven-2025.aspx",
       "https://www.fundoambiental.pt/postos-de-carregamento-ven-2025/total-candidaturas.aspx"
     ],
-    "publication_date": null,
+    "publication_date": "2025-03-25",
     "start_date": null,
     "end_date": null,
-    "total_budget": "5700000.00",
-    "created_at": "2025-10-02 14:33:58.653536",
-    "updated_at": "2025-10-02 14:33:58.653538"
+    "total_budget": "10000000",
+    "created_at": "2025-10-03 19:56:23.354369",
+    "updated_at": "2025-10-03 19:56:23.354370"
   },
   {
     "incentive_id": "556e7298fe9072b76bcb37a3f9048eac60a44d23",
@@ -74,12 +74,12 @@
       "https://www.fundoambiental.pt/mobilidade-verde-mercadorias-ven-2025/candidaturas/iniciar.aspx",
       "https://www.fundoambiental.pt/mobilidade-verde-mercadorias-ven-2025/total-candidaturas-recebidas.aspx"
     ],
-    "publication_date": null,
+    "publication_date": "2025-03-25",
     "start_date": null,
     "end_date": null,
-    "total_budget": "1800000.00",
-    "created_at": "2025-10-02 14:33:58.690902",
-    "updated_at": "2025-10-02 14:33:58.690903"
+    "total_budget": "1500000.0",
+    "created_at": "2025-10-03 19:56:23.413216",
+    "updated_at": "2025-10-03 19:56:23.413216"
   },
   {
     "incentive_id": "11fe3a495d0ac89dd0d6284b0d16488a7eb2f5de",
@@ -94,12 +94,12 @@
       "https://www.fundoambiental.pt/comunicacao/estudos-outros-documentos.aspx",
       "https://www.fundoambiental.pt/medida-de-auxilio-a-custos-indiretos-do-cele-2025.aspx"
     ],
-    "publication_date": "2021-12-30",
+    "publication_date": null,
     "start_date": null,
-    "end_date": "2021-12-30",
-    "total_budget": null,
-    "created_at": "2025-10-02 14:33:58.728653",
-    "updated_at": "2025-10-02 14:33:58.728654"
+    "end_date": null,
+    "total_budget": "25000000",
+    "created_at": "2025-10-03 19:56:23.472535",
+    "updated_at": "2025-10-03 19:56:23.472536"
   },
   {
     "incentive_id": "0af9634774e2b1878e6adf95630ccf329d0859c4",
@@ -116,9 +116,9 @@
     "publication_date": null,
     "start_date": null,
     "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:33:58.778338",
-    "updated_at": "2025-10-02 14:33:58.778340"
+    "total_budget": "193221.64",
+    "created_at": "2025-10-03 19:56:23.557605",
+    "updated_at": "2025-10-03 19:56:23.557605"
   },
   {
     "incentive_id": "a53150264fd32ec2ddd922c75b87b0276cda3443",
@@ -137,10 +137,10 @@
     ],
     "publication_date": null,
     "start_date": null,
-    "end_date": null,
+    "end_date": "2025-05-30",
     "total_budget": null,
-    "created_at": "2025-10-02 14:33:58.812425",
-    "updated_at": "2025-10-02 14:33:58.812426"
+    "created_at": "2025-10-03 19:56:23.615745",
+    "updated_at": "2025-10-03 19:56:23.615746"
   },
   {
     "incentive_id": "05cbedfead13c1c82f43b678f5ae2931d3684c39",
@@ -156,10 +156,10 @@
     ],
     "publication_date": null,
     "start_date": null,
-    "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:33:58.846187",
-    "updated_at": "2025-10-02 14:33:58.846188"
+    "end_date": "2026-12-31",
+    "total_budget": "13500",
+    "created_at": "2025-10-03 19:56:23.690550",
+    "updated_at": "2025-10-03 19:56:23.690551"
   },
   {
     "incentive_id": "76f2301b1fd71d5164dd7cc8f17944e7deb9d2a8",
@@ -173,12 +173,12 @@
       "https://www.fundoambiental.pt/candidaturas/formularios.aspx",
       "https://www.fundoambiental.pt/comunicacao/estudos-outros-documentos.aspx"
     ],
-    "publication_date": null,
+    "publication_date": "2025-05-13",
     "start_date": null,
-    "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:33:58.896241",
-    "updated_at": "2025-10-02 14:33:58.896242"
+    "end_date": "2024-12-31",
+    "total_budget": "1200000000000",
+    "created_at": "2025-10-03 19:56:23.771099",
+    "updated_at": "2025-10-03 19:56:23.771100"
   },
   {
     "incentive_id": "8166e4325f31c89057d257b541b22df85363e095",
@@ -195,9 +195,9 @@
     "publication_date": null,
     "start_date": null,
     "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:33:58.929499",
-    "updated_at": "2025-10-02 14:33:58.929501"
+    "total_budget": "1500000000000",
+    "created_at": "2025-10-03 19:56:23.827241",
+    "updated_at": "2025-10-03 19:56:23.827241"
   },
   {
     "incentive_id": "3cbe2e2df21225791f31ac8c03bbc75f069dc410",
@@ -213,10 +213,10 @@
     ],
     "publication_date": null,
     "start_date": null,
-    "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:33:58.972209",
-    "updated_at": "2025-10-02 14:33:58.972210"
+    "end_date": "2026-12-31",
+    "total_budget": "200000.00",
+    "created_at": "2025-10-03 19:56:23.890967",
+    "updated_at": "2025-10-03 19:56:23.890968"
   },
   {
     "incentive_id": "3589b97df384fa42682573c8a7b06b67b8a39341",
@@ -234,12 +234,12 @@
       "https://www.fundoambiental.pt/postos-de-carregamento-ven-2024/candidatura1/submeter.aspx",
       "https://www.fundoambiental.pt/postos-de-carregamento-ven-2024/total-candidaturas.aspx"
     ],
-    "publication_date": "2024-10-14",
+    "publication_date": "2024-10-17",
     "start_date": null,
     "end_date": null,
-    "total_budget": "4200000.00",
-    "created_at": "2025-10-02 14:33:59.018865",
-    "updated_at": "2025-10-02 14:33:59.018868"
+    "total_budget": "10",
+    "created_at": "2025-10-03 19:56:23.971082",
+    "updated_at": "2025-10-03 19:56:23.971083"
   },
   {
     "incentive_id": "2ef4999ad103ccdba2b8ae77ce2477059dabdefc",
@@ -255,12 +255,12 @@
       "https://www.fundoambiental.pt/mobilidade-verde-mercadorias-ven-2024/candidaturas/iniciar.aspx",
       "https://www.fundoambiental.pt/mobilidade-verde-mercadorias-ven-2024/total-candidaturas.aspx"
     ],
-    "publication_date": null,
+    "publication_date": "2024-10-17",
     "start_date": null,
     "end_date": null,
-    "total_budget": "1200000.00",
-    "created_at": "2025-10-02 14:33:59.058004",
-    "updated_at": "2025-10-02 14:33:59.058005"
+    "total_budget": "1500000.0",
+    "created_at": "2025-10-03 19:56:24.035664",
+    "updated_at": "2025-10-03 19:56:24.035665"
   },
   {
     "incentive_id": "65c6ba6ee1f5298b93b6310b011611eae8889f2b",
@@ -275,12 +275,12 @@
       "https://www.fundoambiental.pt/comunicacao/estudos-outros-documentos.aspx",
       "https://www.fundoambiental.pt/medida-de-auxilio-a-custos-indiretos-do-cele-2024.aspx"
     ],
-    "publication_date": "2021-12-30",
+    "publication_date": null,
     "start_date": null,
-    "end_date": "2021-12-30",
-    "total_budget": null,
-    "created_at": "2025-10-02 14:33:59.099471",
-    "updated_at": "2025-10-02 14:33:59.099474"
+    "end_date": null,
+    "total_budget": "25000000",
+    "created_at": "2025-10-03 19:56:24.097686",
+    "updated_at": "2025-10-03 19:56:24.097686"
   },
   {
     "incentive_id": "c9e05fe41c9861632a3aa797499665a8d9a875b2",
@@ -297,9 +297,9 @@
     "publication_date": null,
     "start_date": null,
     "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:33:59.188380",
-    "updated_at": "2025-10-02 14:33:59.188383"
+    "total_budget": "410000000",
+    "created_at": "2025-10-03 19:56:24.232714",
+    "updated_at": "2025-10-03 19:56:24.232715"
   },
   {
     "incentive_id": "5c688af72f4da40a4a5a9b53183ea1a433c7e8a0",
@@ -315,10 +315,10 @@
     ],
     "publication_date": null,
     "start_date": null,
-    "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:33:59.222187",
-    "updated_at": "2025-10-02 14:33:59.222188"
+    "end_date": "2024-10-31",
+    "total_budget": "1200000.0",
+    "created_at": "2025-10-03 19:56:24.289913",
+    "updated_at": "2025-10-03 19:56:24.289914"
   },
   {
     "incentive_id": "fdfd05dcfa39cecdd569b5e6efe232b3df7ebf36",
@@ -337,10 +337,10 @@
     ],
     "publication_date": null,
     "start_date": null,
-    "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:33:59.260423",
-    "updated_at": "2025-10-02 14:33:59.260424"
+    "end_date": "2023-12-31",
+    "total_budget": "60000000",
+    "created_at": "2025-10-03 19:56:24.351710",
+    "updated_at": "2025-10-03 19:56:24.351710"
   },
   {
     "incentive_id": "53960c4a515ed06e9e1c046ed6ecbd111567f772",
@@ -359,10 +359,10 @@
     ],
     "publication_date": null,
     "start_date": null,
-    "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:33:59.297979",
-    "updated_at": "2025-10-02 14:33:59.297982"
+    "end_date": "2023-12-31",
+    "total_budget": "520000000",
+    "created_at": "2025-10-03 19:56:24.411450",
+    "updated_at": "2025-10-03 19:56:24.411451"
   },
   {
     "incentive_id": "8e60dfec6f364320e70c7ee67c682b4fe17dbf12",
@@ -380,8 +380,8 @@
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:33:59.330170",
-    "updated_at": "2025-10-02 14:33:59.330171"
+    "created_at": "2025-10-03 19:56:24.462865",
+    "updated_at": "2025-10-03 19:56:24.462866"
   },
   {
     "incentive_id": "e98725a2ce4a17f3f89de51bdd7193fa47b995f1",
@@ -400,12 +400,12 @@
       "https://www.fundoambiental.pt/educacao-ambiental-laboratorio-de-cidadania.aspx",
       "https://www.fundoambiental.pt/ficheiros/2024/enea_2023_vf1.aspx"
     ],
-    "publication_date": "2024-03-18",
+    "publication_date": null,
     "start_date": null,
     "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:33:59.352402",
-    "updated_at": "2025-10-02 14:33:59.352407"
+    "total_budget": "1500000000000",
+    "created_at": "2025-10-03 19:56:24.502228",
+    "updated_at": "2025-10-03 19:56:24.502229"
   },
   {
     "incentive_id": "290990b1e35e9e7960954894fc45d5f510260635",
@@ -423,8 +423,8 @@
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:33:59.372780",
-    "updated_at": "2025-10-02 14:33:59.372781"
+    "created_at": "2025-10-03 19:56:24.577421",
+    "updated_at": "2025-10-03 19:56:24.577421"
   },
   {
     "incentive_id": "41a0239146ad8a036552b85ee3c4332e25ecc3a0",
@@ -444,10 +444,10 @@
     ],
     "publication_date": null,
     "start_date": null,
-    "end_date": "2025-01-24",
-    "total_budget": null,
-    "created_at": "2025-10-02 14:33:59.412301",
-    "updated_at": "2025-10-02 14:33:59.412301"
+    "end_date": null,
+    "total_budget": "1500000.0",
+    "created_at": "2025-10-03 19:56:24.646502",
+    "updated_at": "2025-10-03 19:56:24.646503"
   },
   {
     "incentive_id": "430966fc59d3c659107f61eb909ea07779b9e861",
@@ -466,9 +466,9 @@
     "publication_date": null,
     "start_date": null,
     "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:33:59.449547",
-    "updated_at": "2025-10-02 14:33:59.449550"
+    "total_budget": "8000000",
+    "created_at": "2025-10-03 19:56:24.711379",
+    "updated_at": "2025-10-03 19:56:24.711380"
   },
   {
     "incentive_id": "0c07fe37ca26e2a22dc2e64a1fc0538f3f0e574c",
@@ -485,9 +485,9 @@
     "publication_date": null,
     "start_date": null,
     "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:33:59.483762",
-    "updated_at": "2025-10-02 14:33:59.483766"
+    "total_budget": "3000000",
+    "created_at": "2025-10-03 19:56:24.767863",
+    "updated_at": "2025-10-03 19:56:24.767864"
   },
   {
     "incentive_id": "a06abb5cd3af928c6a65d18f8204e3e63eda05de",
@@ -503,10 +503,10 @@
     ],
     "publication_date": null,
     "start_date": null,
-    "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:33:59.519284",
-    "updated_at": "2025-10-02 14:33:59.519289"
+    "end_date": "2024-12-31",
+    "total_budget": "13500",
+    "created_at": "2025-10-03 19:56:24.825992",
+    "updated_at": "2025-10-03 19:56:24.825993"
   },
   {
     "incentive_id": "0c94bf1e904193d6c098c4fc09c750cff1e09968",
@@ -527,8 +527,8 @@
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:33:59.562003",
-    "updated_at": "2025-10-02 14:33:59.562003"
+    "created_at": "2025-10-03 19:56:24.899746",
+    "updated_at": "2025-10-03 19:56:24.899746"
   },
   {
     "incentive_id": "23a72070e979349740f46dcac28cfe90ee5b8246",
@@ -551,12 +551,12 @@
       "https://www.fundoambiental.pt/ficheiros/2024/cronograma-aac8-vp-202406111.aspx",
       "https://www.fundoambiental.pt/apoios-prr/documentos-prr.aspx"
     ],
-    "publication_date": "2024-08-06",
+    "publication_date": null,
     "start_date": null,
     "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:33:59.611325",
-    "updated_at": "2025-10-02 14:33:59.611326"
+    "total_budget": "10000000",
+    "created_at": "2025-10-03 19:56:24.979145",
+    "updated_at": "2025-10-03 19:56:24.979146"
   },
   {
     "incentive_id": "15151ead2c693949f1e47343f71c11ea575f93cd",
@@ -576,9 +576,9 @@
     "publication_date": null,
     "start_date": null,
     "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:33:59.656742",
-    "updated_at": "2025-10-02 14:33:59.656745"
+    "total_budget": "262500000",
+    "created_at": "2025-10-03 19:56:25.067437",
+    "updated_at": "2025-10-03 19:56:25.067438"
   },
   {
     "incentive_id": "2268b60a48bd69d34dbb0c4d110f6f5a511e40a0",
@@ -605,12 +605,12 @@
       "https://www.fundoambiental.pt/ficheiros/2024/c08-cronograma-aviso-5-vp-202401161.aspx",
       "https://www.fundoambiental.pt/apoios-prr/documentos-prr.aspx"
     ],
-    "publication_date": "2024-08-06",
+    "publication_date": null,
     "start_date": null,
     "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:33:59.708882",
-    "updated_at": "2025-10-02 14:33:59.708884"
+    "total_budget": "15000000",
+    "created_at": "2025-10-03 19:56:25.161380",
+    "updated_at": "2025-10-03 19:56:25.161381"
   },
   {
     "incentive_id": "6bb8bac1bc705615cc119efd40788b1f6df1c690",
@@ -636,10 +636,10 @@
     ],
     "publication_date": null,
     "start_date": null,
-    "end_date": "2023-02-01",
-    "total_budget": null,
-    "created_at": "2025-10-02 14:33:59.775601",
-    "updated_at": "2025-10-02 14:33:59.775603"
+    "end_date": null,
+    "total_budget": "20000000",
+    "created_at": "2025-10-03 19:56:25.254014",
+    "updated_at": "2025-10-03 19:56:25.254016"
   },
   {
     "incentive_id": "fecc45367872a1b2e89ef6a06f4c3db0140fbf07",
@@ -661,8 +661,8 @@
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:33:59.822873",
-    "updated_at": "2025-10-02 14:33:59.822876"
+    "created_at": "2025-10-03 19:56:25.658012",
+    "updated_at": "2025-10-03 19:56:25.658017"
   },
   {
     "incentive_id": "6c6dfc30b1bac834f80dc0f4810a1598b05ede3d",
@@ -686,9 +686,9 @@
     "publication_date": null,
     "start_date": null,
     "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:33:59.869957",
-    "updated_at": "2025-10-02 14:33:59.869960"
+    "total_budget": "17500000.0",
+    "created_at": "2025-10-03 19:56:25.740638",
+    "updated_at": "2025-10-03 19:56:25.740638"
   },
   {
     "incentive_id": "c437aa2ec6020ca9da416e3bfcd7547bb40d2bc9",
@@ -707,10 +707,10 @@
     ],
     "publication_date": null,
     "start_date": null,
-    "end_date": null,
-    "total_budget": "1200000.00",
-    "created_at": "2025-10-02 14:33:59.913970",
-    "updated_at": "2025-10-02 14:33:59.913971"
+    "end_date": "2025-12-31",
+    "total_budget": "1200000000000.00",
+    "created_at": "2025-10-03 19:56:25.816240",
+    "updated_at": "2025-10-03 19:56:25.816241"
   },
   {
     "incentive_id": "50dd62777b4a6de6ec2315de7be89dce4fc449ed",
@@ -729,10 +729,10 @@
     ],
     "publication_date": null,
     "start_date": null,
-    "end_date": null,
-    "total_budget": "2600000.00",
-    "created_at": "2025-10-02 14:33:59.957686",
-    "updated_at": "2025-10-02 14:33:59.957687"
+    "end_date": "2025-12-31",
+    "total_budget": "2600000000000.00",
+    "created_at": "2025-10-03 19:56:25.921082",
+    "updated_at": "2025-10-03 19:56:25.921083"
   },
   {
     "incentive_id": "c87d7bb9f731de2ba6309d078f502004fe81fe4b",
@@ -752,10 +752,10 @@
     ],
     "publication_date": null,
     "start_date": null,
-    "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:34:00.023745",
-    "updated_at": "2025-10-02 14:34:00.023749"
+    "end_date": "2025-12-31",
+    "total_budget": "1000000",
+    "created_at": "2025-10-03 19:56:26.010526",
+    "updated_at": "2025-10-03 19:56:26.010526"
   },
   {
     "incentive_id": "6c099592a15007590fef030878aea0eda29662dc",
@@ -777,9 +777,9 @@
     "publication_date": null,
     "start_date": null,
     "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:34:00.091132",
-    "updated_at": "2025-10-02 14:34:00.091135"
+    "total_budget": "900000",
+    "created_at": "2025-10-03 19:56:26.122441",
+    "updated_at": "2025-10-03 19:56:26.122442"
   },
   {
     "incentive_id": "6378880ebd55ccbd99f0547ae6acadad90cf6a78",
@@ -803,10 +803,10 @@
     ],
     "publication_date": null,
     "start_date": null,
-    "end_date": null,
-    "total_budget": "7007975.00",
-    "created_at": "2025-10-02 14:34:00.135701",
-    "updated_at": "2025-10-02 14:34:00.135704"
+    "end_date": "2025-12-31",
+    "total_budget": "7007975000000.00",
+    "created_at": "2025-10-03 19:56:26.195073",
+    "updated_at": "2025-10-03 19:56:26.195074"
   },
   {
     "incentive_id": "d5c5b0c3374431a83c1597e3f373d576a413fa5b",
@@ -827,9 +827,9 @@
     "publication_date": null,
     "start_date": null,
     "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:34:00.182462",
-    "updated_at": "2025-10-02 14:34:00.182464"
+    "total_budget": "1664400000000",
+    "created_at": "2025-10-03 19:56:26.268881",
+    "updated_at": "2025-10-03 19:56:26.268881"
   },
   {
     "incentive_id": "3bbeeb9a49ecf12a82f76929ece8793d30ff50ca",
@@ -851,9 +851,9 @@
     "publication_date": null,
     "start_date": null,
     "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:34:00.228663",
-    "updated_at": "2025-10-02 14:34:00.228667"
+    "total_budget": "624000000",
+    "created_at": "2025-10-03 19:56:26.363311",
+    "updated_at": "2025-10-03 19:56:26.363312"
   },
   {
     "incentive_id": "71f27361df8df4b9b9593097bcd188f271690323",
@@ -870,12 +870,12 @@
       "https://www.fundoambiental.pt/ficheiros/2023/c09-4a-republicacao-aviso-n-03-regadios-privados-202309041.aspx",
       "https://www.fundoambiental.pt/ficheiros/2023/documento-de-apoio_ccp_entidadesbeneficiarias_fa-pdf.aspx"
     ],
-    "publication_date": "2023-09-06",
-    "start_date": "2025-04-21",
-    "end_date": "2025-04-21",
-    "total_budget": "17000000.00",
-    "created_at": "2025-10-02 14:34:00.281109",
-    "updated_at": "2025-10-02 14:34:00.281110"
+    "publication_date": null,
+    "start_date": null,
+    "end_date": "2023-09-15",
+    "total_budget": "200000000",
+    "created_at": "2025-10-03 19:56:26.452501",
+    "updated_at": "2025-10-03 19:56:26.452502"
   },
   {
     "incentive_id": "b42c73514f075092c95f2841b79dd527bdc199ae",
@@ -892,12 +892,12 @@
       "https://www.fundoambiental.pt/reduzir-perdas-de-agua-e-aumentar-a-eficiencia-no-setor-agricola.aspx",
       "https://www.fundoambiental.pt/ficheiros/2023/documento-de-apoio_ccp_entidadesbeneficiarias_fa-pdf.aspx"
     ],
-    "publication_date": "2024-01-19",
+    "publication_date": null,
     "start_date": null,
-    "end_date": "2024-01-19",
-    "total_budget": "17000000.00",
-    "created_at": "2025-10-02 14:34:00.337444",
-    "updated_at": "2025-10-02 14:34:00.337445"
+    "end_date": "2022-11-21",
+    "total_budget": "200000000",
+    "created_at": "2025-10-03 19:56:26.546545",
+    "updated_at": "2025-10-03 19:56:26.546545"
   },
   {
     "incentive_id": "64ab316b9f51f918263077713883435aa1f17eef",
@@ -914,10 +914,10 @@
     ],
     "publication_date": null,
     "start_date": null,
-    "end_date": "2026-03-31",
-    "total_budget": "17000000.00",
-    "created_at": "2025-10-02 14:34:00.378912",
-    "updated_at": "2025-10-02 14:34:00.378912"
+    "end_date": null,
+    "total_budget": "200000000",
+    "created_at": "2025-10-03 19:56:26.618134",
+    "updated_at": "2025-10-03 19:56:26.618134"
   },
   {
     "incentive_id": "574b75fd929e1adc84accc2c5a89a03a0765f09f",
@@ -937,9 +937,9 @@
     "publication_date": null,
     "start_date": null,
     "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:34:00.446194",
-    "updated_at": "2025-10-02 14:34:00.446195"
+    "total_budget": "30000000.00",
+    "created_at": "2025-10-03 19:56:26.688123",
+    "updated_at": "2025-10-03 19:56:26.688124"
   },
   {
     "incentive_id": "84ca047aad00f41498448d2a5ed42f39dc389e7b",
@@ -960,12 +960,12 @@
       "https://www.fundoambiental.pt/ficheiros/2025/c12-l-cronograma-aviso-51.aspx",
       "https://www.fundoambiental.pt/apoios-prr/documentos-prr.aspx"
     ],
-    "publication_date": "2024-05-08",
+    "publication_date": null,
     "start_date": null,
-    "end_date": "2024-05-08",
+    "end_date": null,
     "total_budget": "1143045.53",
-    "created_at": "2025-10-02 14:34:00.487417",
-    "updated_at": "2025-10-02 14:34:00.487418"
+    "created_at": "2025-10-03 19:56:26.761934",
+    "updated_at": "2025-10-03 19:56:26.761935"
   },
   {
     "incentive_id": "e6367254b5fcc7194422433988e0eff2fd7ffde4",
@@ -988,12 +988,12 @@
       "https://www.fundoambiental.pt/ficheiros/2025/q-cronograma1.aspx",
       "https://www.fundoambiental.pt/apoios-prr/documentos-prr.aspx"
     ],
-    "publication_date": "2024-05-08",
+    "publication_date": null,
     "start_date": null,
     "end_date": null,
     "total_budget": "6442990.72",
-    "created_at": "2025-10-02 14:34:00.534893",
-    "updated_at": "2025-10-02 14:34:00.534897"
+    "created_at": "2025-10-03 19:56:26.869683",
+    "updated_at": "2025-10-03 19:56:26.869683"
   },
   {
     "incentive_id": "0bb2bc290b19571db8ba97257e77c80601f83335",
@@ -1018,12 +1018,12 @@
       "https://www.fundoambiental.pt/ficheiros/2025/p3.aspx",
       "https://www.fundoambiental.pt/apoios-prr/documentos-prr.aspx"
     ],
-    "publication_date": "2023-06-16",
+    "publication_date": null,
     "start_date": null,
     "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:34:00.578089",
-    "updated_at": "2025-10-02 14:34:00.578089"
+    "total_budget": "5500000",
+    "created_at": "2025-10-03 19:56:26.944620",
+    "updated_at": "2025-10-03 19:56:26.944620"
   },
   {
     "incentive_id": "d9da290dd769c7b37746b79a089af0b98855c31c",
@@ -1040,12 +1040,12 @@
       "https://www.fundoambiental.pt/ficheiros/bioeconomia-regulamento-funcionamento-comite-coordenador1.aspx",
       "https://www.fundoambiental.pt/ficheiros/bioeconomia-regulamento-funcionamento-comissao-selecao3.aspx"
     ],
-    "publication_date": "2025-04-02",
+    "publication_date": null,
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:34:00.639582",
-    "updated_at": "2025-10-02 14:34:00.639583"
+    "created_at": "2025-10-03 19:56:27.050717",
+    "updated_at": "2025-10-03 19:56:27.050718"
   },
   {
     "incentive_id": "5d032559126bce839299bd0633aad69d8d606528",
@@ -1063,9 +1063,9 @@
     "publication_date": null,
     "start_date": null,
     "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:34:00.680844",
-    "updated_at": "2025-10-02 14:34:00.680845"
+    "total_budget": "5600000.0",
+    "created_at": "2025-10-03 19:56:27.129383",
+    "updated_at": "2025-10-03 19:56:27.129384"
   },
   {
     "incentive_id": "907df3429afddca1eb086dfed294fb2810648e43",
@@ -1081,10 +1081,10 @@
     ],
     "publication_date": null,
     "start_date": null,
-    "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:34:00.722610",
-    "updated_at": "2025-10-02 14:34:00.722611"
+    "end_date": "2026-06-30",
+    "total_budget": "15000",
+    "created_at": "2025-10-03 19:56:27.207296",
+    "updated_at": "2025-10-03 19:56:27.207297"
   },
   {
     "incentive_id": "2782d3e66a1c0e31fead6dd5ff6d383a137b6b25",
@@ -1104,8 +1104,8 @@
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:34:00.765637",
-    "updated_at": "2025-10-02 14:34:00.765638"
+    "created_at": "2025-10-03 19:56:27.301564",
+    "updated_at": "2025-10-03 19:56:27.301565"
   },
   {
     "incentive_id": "bab5a5af0919d34fe24284489a9996c62c85533b",
@@ -1121,12 +1121,12 @@
       "https://www.fundoambiental.pt/vale-eficiencia-2-fase/registo-fornecedor.aspx",
       "https://www.fundoambiental.pt/vale-eficiencia-2-fase/registo-fornecedor-tecnico.aspx"
     ],
-    "publication_date": "2025-05-26",
+    "publication_date": null,
     "start_date": null,
-    "end_date": "2025-04-14",
-    "total_budget": null,
-    "created_at": "2025-10-02 14:34:00.815064",
-    "updated_at": "2025-10-02 14:34:00.815066"
+    "end_date": null,
+    "total_budget": "130000000",
+    "created_at": "2025-10-03 19:56:27.399154",
+    "updated_at": "2025-10-03 19:56:27.399156"
   },
   {
     "incentive_id": "3813e0560544e3d2a4e4fec169103d588cd0f43e",
@@ -1140,12 +1140,12 @@
       "https://www.fundoambiental.pt/candidaturas/formularios.aspx",
       "https://www.fundoambiental.pt/comunicacao/estudos-outros-documentos.aspx"
     ],
-    "publication_date": "2023-08-11",
-    "start_date": "2023-10-31",
-    "end_date": "2023-08-16",
-    "total_budget": "30000000.00",
-    "created_at": "2025-10-02 14:34:00.879840",
-    "updated_at": "2025-10-02 14:34:00.879841"
+    "publication_date": null,
+    "start_date": null,
+    "end_date": null,
+    "total_budget": "30000000",
+    "created_at": "2025-10-03 19:56:27.551180",
+    "updated_at": "2025-10-03 19:56:27.551180"
   },
   {
     "incentive_id": "d9889ba4ccb734b6ed617a41a2f3409b1767525c",
@@ -1162,12 +1162,12 @@
       "https://www.fundoambiental.pt/plataforma-vales-de-eficiencia/situacao-das-candidaturas.aspx",
       "https://www.fundoambiental.pt/plataforma-vales-de-eficiencia/beneficiarios-situacao-das-candidaturas.aspx"
     ],
-    "publication_date": "2021-10-07",
+    "publication_date": null,
     "start_date": null,
-    "end_date": "2021-10-07",
+    "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:34:00.920609",
-    "updated_at": "2025-10-02 14:34:00.920610"
+    "created_at": "2025-10-03 19:56:27.624588",
+    "updated_at": "2025-10-03 19:56:27.624588"
   },
   {
     "incentive_id": "c0b7e957f73fd834a974cdfccaae6faf8dc5f5cf",
@@ -1182,12 +1182,12 @@
       "https://www.fundoambiental.pt/comunicacao/estudos-outros-documentos.aspx",
       "https://www.fundoambiental.pt/ficheiros/2025/c13-04c13-i01_documentacao-contratacao_instrucoes1.aspx"
     ],
-    "publication_date": "2024-02-23",
-    "start_date": "2024-02-23",
+    "publication_date": null,
+    "start_date": null,
     "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:34:00.962612",
-    "updated_at": "2025-10-02 14:34:00.962613"
+    "total_budget": "12000000",
+    "created_at": "2025-10-03 19:56:27.699705",
+    "updated_at": "2025-10-03 19:56:27.699706"
   },
   {
     "incentive_id": "50d748b711e94c828bc4ac699682f46c2b18c255",
@@ -1205,10 +1205,10 @@
     ],
     "publication_date": null,
     "start_date": null,
-    "end_date": "2024-01-11",
-    "total_budget": "5000000.00",
-    "created_at": "2025-10-02 14:34:01.002179",
-    "updated_at": "2025-10-02 14:34:01.002180"
+    "end_date": null,
+    "total_budget": "200000000",
+    "created_at": "2025-10-03 19:56:27.796923",
+    "updated_at": "2025-10-03 19:56:27.796924"
   },
   {
     "incentive_id": "92376d58d5f2a70356c186c5bc9d01bd87576225",
@@ -1228,9 +1228,9 @@
     "publication_date": null,
     "start_date": null,
     "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:34:01.068939",
-    "updated_at": "2025-10-02 14:34:01.068942"
+    "total_budget": "80000000",
+    "created_at": "2025-10-03 19:56:27.869998",
+    "updated_at": "2025-10-03 19:56:27.869999"
   },
   {
     "incentive_id": "9314aa18c8fb4147c812981b7360b03885153cd7",
@@ -1248,9 +1248,9 @@
     "publication_date": null,
     "start_date": null,
     "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:34:01.118916",
-    "updated_at": "2025-10-02 14:34:01.118921"
+    "total_budget": "30000000",
+    "created_at": "2025-10-03 19:56:27.957752",
+    "updated_at": "2025-10-03 19:56:27.957753"
   },
   {
     "incentive_id": "8e5f27f270ef4fb9b2706d6bb95e1593444ba7f6",
@@ -1269,10 +1269,10 @@
     ],
     "publication_date": null,
     "start_date": null,
-    "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:34:01.165187",
-    "updated_at": "2025-10-02 14:34:01.165188"
+    "end_date": "2022-04-30",
+    "total_budget": "135000000",
+    "created_at": "2025-10-03 19:56:28.036186",
+    "updated_at": "2025-10-03 19:56:28.036187"
   },
   {
     "incentive_id": "343546a97366b3d73bbecf82ad928adb65d393ef",
@@ -1293,9 +1293,9 @@
     "publication_date": null,
     "start_date": null,
     "end_date": null,
-    "total_budget": "5000000.00",
-    "created_at": "2025-10-02 14:34:01.236066",
-    "updated_at": "2025-10-02 14:34:01.236069"
+    "total_budget": "62000000000000",
+    "created_at": "2025-10-03 19:56:28.143237",
+    "updated_at": "2025-10-03 19:56:28.143238"
   },
   {
     "incentive_id": "1be848ba6b67159ffa8e31d043d86383b2d7a505",
@@ -1318,9 +1318,9 @@
     "publication_date": null,
     "start_date": null,
     "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:34:01.306161",
-    "updated_at": "2025-10-02 14:34:01.306164"
+    "total_budget": "83000000000000.00",
+    "created_at": "2025-10-03 19:56:28.264232",
+    "updated_at": "2025-10-03 19:56:28.264233"
   },
   {
     "incentive_id": "17d102e22d561113808055a5249967e2a0b90f33",
@@ -1338,9 +1338,9 @@
     "publication_date": null,
     "start_date": null,
     "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:34:01.364417",
-    "updated_at": "2025-10-02 14:34:01.364418"
+    "total_budget": "48000000000000.00",
+    "created_at": "2025-10-03 19:56:28.356624",
+    "updated_at": "2025-10-03 19:56:28.356625"
   },
   {
     "incentive_id": "1faa2657a7e0fe5b583c0a775e45d30b1d2cfd91",
@@ -1361,9 +1361,9 @@
     "publication_date": null,
     "start_date": null,
     "end_date": "2024-08-02",
-    "total_budget": null,
-    "created_at": "2025-10-02 14:34:01.413811",
-    "updated_at": "2025-10-02 14:34:01.413813"
+    "total_budget": "70000000000000.00",
+    "created_at": "2025-10-03 19:56:28.460260",
+    "updated_at": "2025-10-03 19:56:28.460261"
   },
   {
     "incentive_id": "c929e6da5f1a655b2360209fa83ffb57c9ebc6a7",
@@ -1385,9 +1385,9 @@
     "publication_date": null,
     "start_date": null,
     "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:34:01.458702",
-    "updated_at": "2025-10-02 14:34:01.458705"
+    "total_budget": "30000000",
+    "created_at": "2025-10-03 19:56:28.527809",
+    "updated_at": "2025-10-03 19:56:28.527810"
   },
   {
     "incentive_id": "78cf8b8fab5973eb26e234e69c7f8b6a8e92d470",
@@ -1410,9 +1410,9 @@
     "publication_date": null,
     "start_date": null,
     "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:34:01.515060",
-    "updated_at": "2025-10-02 14:34:01.515061"
+    "total_budget": "137000000",
+    "created_at": "2025-10-03 19:56:28.621537",
+    "updated_at": "2025-10-03 19:56:28.621538"
   },
   {
     "incentive_id": "e05c839bc3844d0c3f98811d78be266feabca84b",
@@ -1431,9 +1431,9 @@
     "publication_date": null,
     "start_date": null,
     "end_date": null,
-    "total_budget": "5548900.00",
-    "created_at": "2025-10-02 14:34:01.536394",
-    "updated_at": "2025-10-02 14:34:01.536399"
+    "total_budget": "23.34",
+    "created_at": "2025-10-03 19:56:28.664228",
+    "updated_at": "2025-10-03 19:56:28.664229"
   },
   {
     "incentive_id": "55c036ed3677fdfba5c8b5093d01c6a76b549d53",
@@ -1453,8 +1453,8 @@
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:34:01.559392",
-    "updated_at": "2025-10-02 14:34:01.559393"
+    "created_at": "2025-10-03 19:56:28.733060",
+    "updated_at": "2025-10-03 19:56:28.733061"
   },
   {
     "incentive_id": "22963a48816fee334c78fdc5d0c4ed440c34366f",
@@ -1472,9 +1472,9 @@
     "publication_date": null,
     "start_date": null,
     "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:34:01.582547",
-    "updated_at": "2025-10-02 14:34:01.582548"
+    "total_budget": "2250000",
+    "created_at": "2025-10-03 19:56:28.774588",
+    "updated_at": "2025-10-03 19:56:28.774589"
   },
   {
     "incentive_id": "45d50908ada87e5b8354007f8d4439f52a5b6ffa",
@@ -1491,9 +1491,9 @@
     "publication_date": null,
     "start_date": null,
     "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:34:01.629320",
-    "updated_at": "2025-10-02 14:34:01.629321"
+    "total_budget": "2632500",
+    "created_at": "2025-10-03 19:56:28.816151",
+    "updated_at": "2025-10-03 19:56:28.816152"
   },
   {
     "incentive_id": "c0bba83862d564e4b9f08fa3f3cdae3bb2f83923",
@@ -1511,8 +1511,8 @@
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:34:01.665903",
-    "updated_at": "2025-10-02 14:34:01.665905"
+    "created_at": "2025-10-03 19:56:28.880938",
+    "updated_at": "2025-10-03 19:56:28.880939"
   },
   {
     "incentive_id": "0ea0704b4e11befa3e0065449f951c5ff7d9f047",
@@ -1530,8 +1530,8 @@
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:34:01.702462",
-    "updated_at": "2025-10-02 14:34:01.702466"
+    "created_at": "2025-10-03 19:56:28.942823",
+    "updated_at": "2025-10-03 19:56:28.942824"
   },
   {
     "incentive_id": "4418616cfbc6734fc3872c44ad91e14b3dc7f739",
@@ -1549,8 +1549,8 @@
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:34:01.738719",
-    "updated_at": "2025-10-02 14:34:01.738720"
+    "created_at": "2025-10-03 19:56:29.010307",
+    "updated_at": "2025-10-03 19:56:29.010314"
   },
   {
     "incentive_id": "8c03bdc54c3328dc9b81ca4493c3454a309b42f0",
@@ -1568,8 +1568,8 @@
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:34:01.774598",
-    "updated_at": "2025-10-02 14:34:01.774599"
+    "created_at": "2025-10-03 19:56:29.096257",
+    "updated_at": "2025-10-03 19:56:29.096258"
   },
   {
     "incentive_id": "639b8aa7476cb54b3f282b1afe3d4409476e2c2a",
@@ -1587,9 +1587,9 @@
     "publication_date": null,
     "start_date": null,
     "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:34:01.819053",
-    "updated_at": "2025-10-02 14:34:01.819057"
+    "total_budget": "25000000000000",
+    "created_at": "2025-10-03 19:56:29.167301",
+    "updated_at": "2025-10-03 19:56:29.167302"
   },
   {
     "incentive_id": "89eede1431c151be26fa6fac62aa1184abd0028f",
@@ -1607,8 +1607,8 @@
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:34:01.856202",
-    "updated_at": "2025-10-02 14:34:01.856203"
+    "created_at": "2025-10-03 19:56:29.230710",
+    "updated_at": "2025-10-03 19:56:29.230711"
   },
   {
     "incentive_id": "3eeee081e4ff8d0c60043205d5ba005352992609",
@@ -1626,8 +1626,8 @@
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:34:01.891832",
-    "updated_at": "2025-10-02 14:34:01.891833"
+    "created_at": "2025-10-03 19:56:29.295648",
+    "updated_at": "2025-10-03 19:56:29.295649"
   },
   {
     "incentive_id": "64d5fbc0cd21df35a6cadfc4a7761746a8e09dab",
@@ -1645,8 +1645,8 @@
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:34:01.927129",
-    "updated_at": "2025-10-02 14:34:01.927129"
+    "created_at": "2025-10-03 19:56:29.359403",
+    "updated_at": "2025-10-03 19:56:29.359404"
   },
   {
     "incentive_id": "c141f506e999727c09a4b8c5a9377cb1a76ba930",
@@ -1664,8 +1664,8 @@
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:34:01.963234",
-    "updated_at": "2025-10-02 14:34:01.963235"
+    "created_at": "2025-10-03 19:56:29.425298",
+    "updated_at": "2025-10-03 19:56:29.425299"
   },
   {
     "incentive_id": "a71291afd2c87dc7b3c933f208792e9c2a5fa50d",
@@ -1683,8 +1683,8 @@
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:34:02.008928",
-    "updated_at": "2025-10-02 14:34:02.008932"
+    "created_at": "2025-10-03 19:56:29.490263",
+    "updated_at": "2025-10-03 19:56:29.490264"
   },
   {
     "incentive_id": "5e3bf98612e163a9fef737f2ccb69ecfb228abf5",
@@ -1703,8 +1703,8 @@
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:34:02.049569",
-    "updated_at": "2025-10-02 14:34:02.049571"
+    "created_at": "2025-10-03 19:56:29.595816",
+    "updated_at": "2025-10-03 19:56:29.595816"
   },
   {
     "incentive_id": "3979d9c5da45c094937ac4ed241bcb04c5149388",
@@ -1722,8 +1722,8 @@
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:34:02.091701",
-    "updated_at": "2025-10-02 14:34:02.091702"
+    "created_at": "2025-10-03 19:56:29.668978",
+    "updated_at": "2025-10-03 19:56:29.668978"
   },
   {
     "incentive_id": "b042db9c5fa0f3092d97dbce0929814ceb69ddc1",
@@ -1739,12 +1739,12 @@
       "https://www.fundoambiental.pt/apoiar-financeiramente-a-remediacao-de-edificios-de-habitacao.aspx",
       "https://www.fundoambiental.pt/ficheiros/2023/protecao-do-ambiente-protecao-radiologica-e-gestao-de-riscos-e-danos-ambientais-aviso-9253_2023-11mai1.aspx"
     ],
-    "publication_date": "2023-11-30",
+    "publication_date": null,
     "start_date": null,
-    "end_date": "2023-11-30",
-    "total_budget": null,
-    "created_at": "2025-10-02 14:34:02.131366",
-    "updated_at": "2025-10-02 14:34:02.131367"
+    "end_date": null,
+    "total_budget": "750000000",
+    "created_at": "2025-10-03 19:56:29.740236",
+    "updated_at": "2025-10-03 19:56:29.740237"
   },
   {
     "incentive_id": "de3b8194568eacd40038bcd3819d077b7d0b5c6f",
@@ -1762,8 +1762,8 @@
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:34:02.172171",
-    "updated_at": "2025-10-02 14:34:02.172172"
+    "created_at": "2025-10-03 19:56:29.808801",
+    "updated_at": "2025-10-03 19:56:29.808802"
   },
   {
     "incentive_id": "0a2e8504e59a76236af0a94d973ea316e04fece1",
@@ -1781,8 +1781,8 @@
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:34:02.212238",
-    "updated_at": "2025-10-02 14:34:02.212239"
+    "created_at": "2025-10-03 19:56:29.881035",
+    "updated_at": "2025-10-03 19:56:29.881035"
   },
   {
     "incentive_id": "88b4d5067fea06511a1812559f08290f1feae09c",
@@ -1799,9 +1799,9 @@
     "publication_date": null,
     "start_date": null,
     "end_date": null,
-    "total_budget": null,
-    "created_at": "2025-10-02 14:34:02.270842",
-    "updated_at": "2025-10-02 14:34:02.270845"
+    "total_budget": "10000000",
+    "created_at": "2025-10-03 19:56:29.942402",
+    "updated_at": "2025-10-03 19:56:29.942403"
   },
   {
     "incentive_id": "a31e83f3175b550711c30869d210ac2755a4184c",
@@ -1819,8 +1819,8 @@
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:34:02.311669",
-    "updated_at": "2025-10-02 14:34:02.311670"
+    "created_at": "2025-10-03 19:56:30.018960",
+    "updated_at": "2025-10-03 19:56:30.018960"
   },
   {
     "incentive_id": "ca7e42d79b0f91aca6c720b585c93b98274fb0da",
@@ -1838,8 +1838,8 @@
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:34:02.352601",
-    "updated_at": "2025-10-02 14:34:02.352603"
+    "created_at": "2025-10-03 19:56:30.115886",
+    "updated_at": "2025-10-03 19:56:30.115887"
   },
   {
     "incentive_id": "59d056e42cc2d08af8a9d44fb00b94b848545f7f",
@@ -1857,8 +1857,8 @@
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:34:02.389692",
-    "updated_at": "2025-10-02 14:34:02.389693"
+    "created_at": "2025-10-03 19:56:30.180547",
+    "updated_at": "2025-10-03 19:56:30.180548"
   },
   {
     "incentive_id": "6950b819059caf9fb43424e9d6ee6f98e045c203",
@@ -1878,8 +1878,8 @@
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:34:02.409221",
-    "updated_at": "2025-10-02 14:34:02.409222"
+    "created_at": "2025-10-03 19:56:30.222877",
+    "updated_at": "2025-10-03 19:56:30.222878"
   },
   {
     "incentive_id": "cd1fd8b9b6f4f10376312411605cf8dfedf16dcc",
@@ -1897,8 +1897,8 @@
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:34:02.427724",
-    "updated_at": "2025-10-02 14:34:02.427725"
+    "created_at": "2025-10-03 19:56:30.262599",
+    "updated_at": "2025-10-03 19:56:30.262599"
   },
   {
     "incentive_id": "3a15421b150e1bcbf98af3426f2040b05f4322ea",
@@ -1915,9 +1915,9 @@
     "publication_date": null,
     "start_date": null,
     "end_date": null,
-    "total_budget": "75000000.00",
-    "created_at": "2025-10-02 14:34:02.483816",
-    "updated_at": "2025-10-02 14:34:02.483819"
+    "total_budget": "30",
+    "created_at": "2025-10-03 19:56:30.376182",
+    "updated_at": "2025-10-03 19:56:30.376183"
   },
   {
     "incentive_id": "cd0823d566391637fd13763a50802beff0e29b1f",
@@ -1935,8 +1935,8 @@
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:34:02.519035",
-    "updated_at": "2025-10-02 14:34:02.519039"
+    "created_at": "2025-10-03 19:56:30.439649",
+    "updated_at": "2025-10-03 19:56:30.439649"
   },
   {
     "incentive_id": "87bc5ce78ec5b1956774e750cb83137cfa296467",
@@ -1954,8 +1954,8 @@
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:34:02.536074",
-    "updated_at": "2025-10-02 14:34:02.536077"
+    "created_at": "2025-10-03 19:56:30.497217",
+    "updated_at": "2025-10-03 19:56:30.497218"
   },
   {
     "incentive_id": "17839fbc2d9e73c7a692acad5f615b669834b183",
@@ -1973,7 +1973,7 @@
     "start_date": null,
     "end_date": null,
     "total_budget": null,
-    "created_at": "2025-10-02 14:34:02.569740",
-    "updated_at": "2025-10-02 14:34:02.569742"
+    "created_at": "2025-10-03 19:56:30.557832",
+    "updated_at": "2025-10-03 19:56:30.557832"
   }
 ]

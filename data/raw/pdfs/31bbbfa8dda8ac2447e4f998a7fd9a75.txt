@@ -1,0 +1,542 @@
+24.12.2013 EN Official Journal of the European Union L 352/1
+II
+(Non-legislative acts)
+REGULATIONS
+COMMISSION REGULATION (EU) No 1407/2013
+of 18 December 2013
+on the application of Articles 107 and 108 of the Treaty on the Functioning of the European Union
+to de minimis aid
+(Text with EEA relevance)
+THE EUROPEAN COMMISSION, (2) The Commission has, in numerous decisions, clarified the
+notion of aid within the meaning of Article 107(1) of the
+Treaty. The Commission has also stated its policy with
+regard to a de minimis ceiling below which Article 107(1)
+Having regard to the Treaty on the Functioning of the European
+of the Treaty can be considered not to apply, initially in
+Union, and in particular Article 108(4) thereof, its notice on the de minimis rule for State aid ( 3) and
+subsequently in Commission Regulations (EC) No
+69/2001 ( 4) and (EC) No 1998/2006 ( 5) . In the light of
+the experience gained in applying Regulation (EC) No
+Having regard to Council Regulation (EC) No 994/98 of 7 May
+1998/2006, it is appropriate to revise some of the
+1998 on the application of Articles 107 and 108 of the Treaty
+conditions laid down in that Regulation and to replace it.
+on the Functioning of the European Union to certain categories
+of horizontal State aid ( 1) ,
+Having published a draft of this Regulation ( 2) , (3) It is appropriate to maintain the ceiling of EUR 200 000
+as the amount of de minimis aid that a single undertaking
+may receive per Member State over any period of three
+years. That ceiling remains necessary to ensure that any
+After consulting the Advisory Committee on State Aid,
+measure falling under this Regulation can be deemed not
+to have any effect on trade between Member States and
+not to distort or threaten to distort competition.
+Whereas:
+(1) State funding meeting the criteria in Article 107(1) of the (4) For the purposes of the rules on competition laid down
+Treaty constitutes State aid and requires notification to
+in the Treaty an undertaking is any entity engaged in an
+the Commission by virtue of Article 108(3) of the Treaty.
+economic activity, regardless of its legal status and the
+However, under Article 109 of the Treaty, the Council
+way in which it is financed ( 6) . The Court of Justice of the
+may determine categories of aid that are exempted from
+European Union has ruled that all entities which are
+this notification requirement. In accordance with
+controlled (on a legal or on a de facto basis) by the
+Article 108(4) of the Treaty the Commission may
+same entity should be considered as a single undertak­
+adopt regulations relating to those categories of State
+ing ( 7) . For the sake of legal certainty and to reduce the
+aid. By virtue of Regulation (EC) No 994/98 the
+administrative burden, this Regulation should provide
+Council decided, in accordance with Article 109 of the
+Treaty, that de minimis aid could constitute one such
+category. On that basis, de minimis aid, being aid
+( 3 ) Commission notice on the de minimis rule for State aid (OJ C 68,
+6.3.1996, p. 9).
+granted to a single undertaking over a given period of ( 4 ) Commission Regulation (EC) No 69/2001 of 12 January 2001 on
+time that does not exceed a certain fixed amount, is the application of Articles 87 and 88 of the EC Treaty to de minimis
+deemed not to meet all the criteria laid down in aid (OJ L 10, 13.1.2001, p. 30).
+Article 107(1) of the Treaty and is therefore not ( 5 ) Commission Regulation (EC) No 1998/2006 of 15 December 2006
+on the application of Articles 87 and 88 of the Treaty to de minimis
+subject to the notification procedure.
+aid (OJ L 379, 28.12.2006, p. 5).
+( 6 ) Case C-222/04 Ministero dell’Economia e delle Finanze v Cassa di
+( 1 ) OJ L 142, 14.5.1998, p. 1. Risparmio di Firenze SpA et al. [2006] ECR I-289.
+( 2 ) OJ C 229, 8.8.2013, p. 1. ( 7 ) Case C-382/99 Netherlands v Commission [2002] ECR I-5163.
+
+L 352/2 EN Official Journal of the European Union 24.12.2013
+an exhaustive list of clear criteria for determining when processing and marketing of agricultural products,
+two or more enterprises within the same Member State provided that certain conditions are met. Neither on-
+are to be considered as a single undertaking. The farm activities necessary for preparing a product for the
+Commission has selected from the well-established first sale, such as harvesting, cutting and threshing of
+criteria for defining ‘linked enterprises’ in the definition cereals, or packing of eggs, nor the first sale to
+of small or medium-sized enterprises (SMEs) in resellers or processors should be considered as processing
+Commission Recommendation 2003/361/EC ( 1 ) and in or marketing in this respect.
+Annex I to Commission Regulation (EC) No
+800/2008 ( 2) those criteria that are appropriate for the
+purposes of this Regulation. The criteria are already
+familiar to public authorities and should be applicable,
+given the scope of this Regulation, to both SMEs and
+large undertakings. Those criteria should ensure that a (8) The Court of Justice of the European Union has estab­
+group of linked enterprises is considered as one single lished that, once the Union has legislated for the estab­
+undertaking for the application of the de minimis rule, but lishment of a common organisation of the market in a
+that enterprises which have no relationship with each given sector of agriculture, Member States are under an
+other except for the fact that each of them has a direct obligation to refrain from taking any measure which
+link to the same public body or bodies are not treated as might undermine or create exceptions to it ( 3 ). For that
+being linked to each other. The specific situation of reason, this Regulation should not apply to aid the
+enterprises controlled by the same public body or amount of which is fixed on the basis of the price or
+bodies, which may have an independent power of quantity of products purchased or put on the market.
+decision, is therefore taken into account. Nor should it apply to support which is linked to an
+obligation to share the aid with primary producers.
+(5) In order to take account of the small average size of
+undertakings active in the road freight transport sector,
+it is appropriate to maintain the ceiling of EUR 100 000
+for undertakings performing road freight transport for (9) This Regulation should not apply to export aid or aid
+hire or reward. The provision of an integrated service contingent upon the use of domestic over imported
+where the actual transportation is only one element, products. In particular, it should not apply to aid
+such as removal services, postal or courier services or financing the establishment and operation of a
+waste collection or processing services, should not be distribution network in other Member States or in third
+considered a transport service. In view of the over­ countries. Aid towards the costs of participating in trade
+capacity in the road freight transport sector and the fairs, or of studies or consultancy services needed for the
+objectives of transport policy as regards road congestion launch of a new or existing product on a new market in
+and freight transport, aid for the acquisition of road another Member State or a third country does not
+freight transport vehicles by undertakings performing normally constitute export aid.
+road freight transport for hire or reward should be
+excluded from the scope of application of this Regu­
+lation. In view of the development of the road
+passenger transport sector, it is no longer appropriate
+to apply a lower ceiling to this sector.
+(10) The period of three years to be taken into account for
+the purposes of this Regulation should be assessed on a
+rolling basis so that, for each new grant of de minimis aid,
+the total amount of de minimis aid granted in the fiscal
+(6) In view of the special rules which apply in the sectors of
+year concerned and during the previous two fiscal years
+primary production of agricultural products, fishery and
+needs to be taken into account.
+aquaculture and of the risk that amounts of aid below
+the ceiling laid down in this Regulation could
+nonetheless fulfil the criteria in Article 107(1) of the
+Treaty, this Regulation should not apply to those sectors.
+(11) Where an undertaking is active in sectors excluded from
+the scope of this Regulation and is also active in other
+(7) Considering the similarities between the processing and sectors or has other activities, this Regulation should
+marketing of agricultural products and of non-agri­ apply to those other sectors or activities provided that
+cultural products, this Regulation should apply to the the Member State concerned ensures, by appropriate
+means such as separation of activities or distinction of
+( 1 ) Commission Recommendation 2003/361/EC of 6 May 2003 costs, that the activities in the excluded sectors do not
+concerning the definition of micro, small and medium-sized enter­ benefit from the de minimis aid. The same principle
+prises (OJ L 124, 20.5.2003, p. 36). should apply where an undertaking is active in sectors
+( 2 ) Commission Regulation (EC) No 800/2008 of 6 August 2008
+to which lower de minimis ceilings apply. If it cannot be
+declaring certain categories of aid compatible with the common
+market in application of Articles 87 and 88 of the Treaty (OJ
+L 214, 9.8.2008, p. 3). ( 3 ) Case C-456/00 France v Commission [2002] ECR I-11949.
+
+24.12.2013 EN Official Journal of the European Union L 352/3
+ensured that the activities in sectors to which lower de (16) Aid comprised in loans, including de minimis risk finance
+minimis ceilings apply benefit from de minimis aid only up aid taking the form of loans, should be considered trans­
+to those lower ceilings, the lowest ceiling should apply to parent de minimis aid if the gross grant equivalent has
+all activities of the undertaking. been calculated on the basis of market interest rates
+prevailing at the time the aid is granted. In order to
+simplify the treatment of small loans of short duration,
+this Regulation should provide for a clear rule that is easy
+(12) This Regulation should lay down rules to ensure that it is to apply and takes into account both the amount of the
+not possible to circumvent maximum aid intensities laid loan and its duration. Based on the Commission’s
+down in specific regulations or Commission decisions. It experience, loans that are secured by collateral covering
+should also provide for clear rules on cumulation that are at least 50 % of the loan and that do not exceed either
+easy to apply. EUR 1 000 000 and a duration of five years or EUR
+500 000 and a duration of 10 years can be considered
+as having a gross grant equivalent not exceeding the de
+minimis ceiling. Given the difficulties linked to deter­
+mining the gross grant equivalent of aid granted to
+(13) This Regulation does not exclude the possibility that a
+undertakings that may not be able to repay the loan,
+measure might be considered not to be State aid within
+the meaning of Article 107(1) of the Treaty on grounds
+this rule should not apply to such undertakings.
+other than those set out in this Regulation, for instance
+because the measure complies with the market economy
+operator principle or because the measure does not
+involve a transfer of State resources. In particular,
+Union funding centrally managed by the Commission (17) Aid comprised in capital injections should not be
+which is not directly or indirectly under the control of considered as transparent de minimis aid, unless the
+the Member State does not constitute State aid and total amount of the public injection does not exceed
+should not be taken into account in determining the de minimis ceiling. Aid comprised in risk finance
+whether the relevant ceiling is complied with. measures taking the form of equity or quasi-equity
+investments, as referred to in the risk finance guide­
+lines ( 2) , should not be considered as transparent de
+minimis aid unless the measure concerned provides
+capital not exceeding the de minimis ceiling.
+(14) For the purposes of transparency, equal treatment and
+effective monitoring, this Regulation should apply only
+to de minimis aid for which it is possible to calculate
+precisely the gross grant equivalent ex ante without any
+need to undertake a risk assessment (‘transparent aid’).
+(18) Aid comprised in guarantees, including de minimis risk
+Such a precise calculation can, for instance, be made
+finance aid taking the form of guarantees, should be
+for grants, interest rate subsidies, capped tax exemptions
+considered as transparent if the gross grant equivalent
+or other instruments that provide for a cap ensuring that
+has been calculated on the basis of safe-harbour
+the relevant ceiling is not exceeded. Providing for a cap
+premiums laid down in a Commission notice for the
+means that as long as the precise amount of aid is not or
+not yet known, the Member State has to assume that the
+type of undertaking concerned ( 3 ). In order to simplify
+the treatment of guarantees of short duration securing up
+amount equals the cap in order to ensure that several aid
+to 80 % of a relatively small loan, this Regulation should
+measures together do not exceed the ceiling set out in
+provide for a clear rule that is easy to apply and takes
+this Regulation and to apply the rules on cumulation.
+into account both the amount of the underlying loan and
+the duration of the guarantee. This rule should not apply
+to guarantees on underlying transactions not constituting
+a loan, such as guarantees on equity transactions. Where
+(15) For the purposes of transparency, equal treatment and
+the guarantee does not exceed 80 % of the underlying
+the correct application of the de minimis ceiling, all
+loan, the amount guaranteed does not exceed EUR
+Member States should apply the same method of calcu­
+1 500 000 and the duration of the guarantee does not
+lation. In order to facilitate such calculation, aid amounts
+exceed five years the guarantee can be considered as
+not taking the form of a cash grant should be converted
+having a gross grant equivalent not exceeding the de
+into their gross grant equivalent. Calculation of the gross
+minimis ceiling. The same applies where the guarantee
+grant equivalent of transparent types of aid other than
+does not exceed 80 % of the underlying loan, the amount
+grants and of aid payable in several instalments requires
+guaranteed does not exceed EUR 750 000 and the
+the use of market interest rates prevailing at the time
+duration of the guarantee does not exceed 10 years. In
+such aid is granted. With a view to uniform, transparent
+addition, Member States can use a methodology to
+and simple application of the State aid rules, the market
+calculate the gross grant equivalent of guarantees which
+rates applicable for the purposes of this Regulation
+has been notified to the Commission under another
+should be the reference rates, as set out in the Communi­
+cation from the Commission on the revision of the
+method for setting the reference and discount rates ( 1) . ( 2 ) Community guidelines on state aid to promote risk capital
+investments in small and medium-sized enterprises (OJ C 194,
+18.8.2006, p. 2).
+( 1 ) Communication from the Commission on the revision of the ( 3 ) For instance, Commission Notice on the application of Articles 87
+method for setting the reference and discount rates (OJ C 14, and 88 of the EC Treaty to State aid in the form of guarantees (OJ C
+19.1.2008, p. 6). 155, 20.6.2008, p. 10).
+
+L 352/4 EN Official Journal of the European Union 24.12.2013
+Commission Regulation in the State aid area applicable at (23) Having regard to the Commission’s experience and in
+that time and which has been accepted by the particular the frequency with which it is generally
+Commission as being in line with the Guarantee necessary to revise State aid policy, the period of appli­
+Notice, or any successor notice, provided that the cation of this Regulation should be limited. If this Regu­
+accepted methodology explicitly addresses the type of lation expires without being extended, Member States
+guarantee and the type of underlying transaction at should have an adjustment period of six months with
+stake in the context of the application of this Regulation. regard to de minimis aid covered by this Regulation,
+Given the difficulties linked to determining the gross
+grant equivalent of aid granted to undertakings that
+may not be able to repay the loan, this rule should not
+apply to such undertakings. HAS ADOPTED THIS REGULATION:
+(19) Where a de minimis aid scheme is implemented through
+financial intermediaries, it should be ensured that the Article 1
+latter do not receive any State aid. This can be done,
+for example, by requiring financial intermediaries that Scope
+benefit from a State guarantee to pay a market-
+1. This Regulation applies to aid granted to undertakings in
+conform premium or to fully pass on any advantage to
+all sectors, with the exception of:
+the final beneficiaries, or by respecting the de minimis
+ceiling and other conditions of this Regulation also at
+the level of the intermediaries.
+(a) aid granted to undertakings active in the fishery and aqua­
+culture sector, as covered by Council Regulation (EC) No
+(20) Upon notification by a Member State, the Commission
+104/2000 ( 1 );
+may examine whether a measure which does not consist
+of a grant, loan, guarantee, capital injection or risk
+finance measure taking the form of an equity or quasi-
+equity investment leads to a gross grant equivalent that
+(b) aid granted to undertakings active in the primary
+does not exceed the de minimis ceiling and could
+production of agricultural products;
+therefore fall within the scope of this Regulation.
+(21) The Commission has a duty to ensure that State aid rules
+(c) aid granted to undertakings active in the sector of
+are complied with and in accordance with the
+processing and marketing of agricultural products, in the
+cooperation principle laid down in Article 4(3) of the
+following cases:
+Treaty on European Union, Member States should
+facilitate the fulfilment of this task by establishing the
+necessary tools in order to ensure that the total
+amount of de minimis aid granted to a single undertaking
+under the de minimis rule does not exceed the overall (i) where the amount of the aid is fixed on the basis of the
+permissible ceiling. To that end, when granting de price or quantity of such products purchased from
+minimis aid, Member States should inform the under­ primary producers or put on the market by the under­
+taking concerned of the amount of de minimis aid takings concerned;
+granted and of its de minimis character and should
+make express reference to this Regulation. Member
+States should be required to monitor aid granted to
+ensure the relevant ceilings are not exceeded and the (ii) where the aid is conditional on being partly or entirely
+cumulation rules are complied with. To comply with passed on to primary producers;
+that obligation, before granting such aid, the Member
+State concerned should obtain from the undertaking a
+declaration about other de minimis aid covered by this
+Regulation or by other de minimis regulations received (d) aid to export-related activities towards third countries or
+during the fiscal year concerned and the previous two Member States, namely aid directly linked to the quantities
+fiscal years. Alternatively it should be possible for exported, to the establishment and operation of a
+Member States to set up a central register with distribution network or to other current expenditure
+complete information on de minimis aid granted and linked to the export activity;
+check that any new grant of aid does not exceed the
+relevant ceiling.
+(e) aid contingent upon the use of domestic over imported
+(22) Before granting any new de minimis aid each Member goods.
+State should verify that the de minimis ceiling will not
+be exceeded in that Member State by the new de minimis
+( 1 ) Council Regulation (EC) No 104/2000 of 17 December 1999 on the
+aid and that the other conditions of this Regulation are common organisation of the markets in fishery and aquaculture
+complied with. products (OJ L 17, 21.1.2000, p. 22).
+
+24.12.2013 EN Official Journal of the European Union L 352/5
+2. Where an undertaking is active in the sectors referred to Enterprises having any of the relationships referred to in points
+in points (a), (b) or (c) of paragraph 1 and is also active in one (a) to (d) of the first subparagraph through one or more other
+or more of the sectors or has other activities falling within the enterprises shall also be considered to be a single undertaking.
+scope of this Regulation, this Regulation shall apply to aid
+granted in respect of the latter sectors or activities, provided
+that the Member State concerned ensures, by appropriate means
+Article 3
+such as separation of activities or distinction of costs, that the
+activities in the sectors excluded from the scope of this Regu­ De minimis aid
+lation do not benefit from the de minimis aid granted in
+1. Aid measures shall be deemed not to meet all the criteria
+accordance with this Regulation.
+in Article 107(1) of the Treaty, and shall therefore be exempt
+from the notification requirement in Article 108(3) of the
+Treaty, if they fulfil the conditions laid down in this Regulation.
+Article 2
+Definitions
+2. The total amount of de minimis aid granted per Member
+1. For the purposes of this Regulation the following defi­
+State to a single undertaking shall not exceed EUR 200 000
+nitions shall apply:
+over any period of three fiscal years.
+(a) ‘agricultural products’ means products listed in Annex I to
+the Treaty, with the exception of fishery and aquaculture The total amount of de minimis aid granted per Member State to
+products covered by Regulation (EC) No 104/2000; a single undertaking performing road freight transport for hire
+or reward shall not exceed EUR 100 000 over any period of
+three fiscal years. This de minimis aid shall not be used for the
+(b) ‘processing of agricultural products’ means any operation on acquisition of road freight transport vehicles.
+an agricultural product resulting in a product which is also
+an agricultural product, except on-farm activities necessary
+for preparing an animal or plant product for the first sale; 3. If an undertaking performs road freight transport for hire
+or reward and also carries out other activities to which the
+ceiling of EUR 200 000 applies, the ceiling of EUR 200 000
+(c) ‘marketing of agricultural products’ means holding or shall apply to the undertaking, provided that the Member State
+display with a view to sale, offering for sale, delivery or concerned ensures, by appropriate means such as separation of
+any other manner of placing on the market, except the activities or distinction of costs, that the benefit to the road
+first sale by a primary producer to resellers or processors freight transport activity does not exceed EUR 100 000 and
+and any activity preparing a product for such first sale; a that no de minimis aid is used for the acquisition of road
+sale by a primary producer to final consumers shall be freight transport vehicles.
+considered as marketing if it takes place in separate
+premises reserved for that purpose.
+4. De minimis aid shall be deemed granted at the moment the
+legal right to receive the aid is conferred on the undertaking
+2. ‘Single undertaking’ includes, for the purposes of this
+under the applicable national legal regime irrespective of the
+Regulation, all enterprises having at least one of the following
+date of payment of the de minimis aid to the undertaking.
+relationships with each other:
+5. The ceilings laid down in paragraph 2 shall apply irre­
+(a) one enterprise has a majority of the shareholders’ or
+spective of the form of the de minimis aid or the objective
+members’ voting rights in another enterprise;
+pursued and regardless of whether the aid granted by the
+Member State is financed entirely or partly by resources of
+Union origin. The period of three fiscal years shall be
+(b) one enterprise has the right to appoint or remove a majority
+determined by reference to the fiscal years used by the under­
+of the members of the administrative, management or
+taking in the Member State concerned.
+supervisory body of another enterprise;
+(c) one enterprise has the right to exercise a dominant influence 6. For the purposes of the ceilings laid down in paragraph 2,
+over another enterprise pursuant to a contract entered into aid shall be expressed as a cash grant. All figures used shall be
+with that enterprise or to a provision in its memorandum gross, that is, before any deduction of tax or other charge.
+or articles of association; Where aid is granted in a form other than a grant, the aid
+amount shall be the gross grant equivalent of the aid.
+(d) one enterprise, which is a shareholder in or member of
+another enterprise, controls alone, pursuant to an Aid payable in several instalments shall be discounted to its
+agreement with other shareholders in or members of that value at the moment it is granted. The interest rate to be
+enterprise, a majority of shareholders’ or members’ voting used for discounting purposes shall be the discount rate
+rights in that enterprise. applicable at the time the aid is granted.
+
+L 352/6 EN Official Journal of the European Union 24.12.2013
+7. Where the relevant ceiling laid down in paragraph 2 (c) the gross grant equivalent has been calculated on the basis
+would be exceeded by the grant of new de minimis aid, none of the reference rate applicable at the time of the grant.
+of that new aid may benefit from this Regulation.
+4. Aid comprised in capital injections shall only be
+considered as transparent de minimis aid if the total amount
+8. In the case of mergers or acquisitions, all prior de minimis
+of the public injection does not exceed the de minimis ceiling.
+aid granted to any of the merging undertakings shall be taken
+into account in determining whether any new de minimis aid to
+the new or the acquiring undertaking exceeds the relevant
+ceiling. De minimis aid lawfully granted before the merger or 5. Aid comprised in risk finance measures taking the form of
+acquisition shall remain lawful. equity or quasi-equity investments shall only be considered as
+transparent de minimis aid if the capital provided to a single
+undertaking does not exceed the de minimis ceiling.
+9. If one undertaking splits into two or more separate under­
+takings, de minimis aid granted prior to the split shall be
+6. Aid comprised in guarantees shall be treated as trans­
+allocated to the undertaking that benefited from it, which is
+parent de minimis aid if:
+in principle the undertaking taking over the activities for
+which the de minimis aid was used. If such an allocation is
+not possible, the de minimis aid shall be allocated propor­
+tionately on the basis of the book value of the equity capital (a) the beneficiary is not subject to collective insolvency
+of the new undertakings at the effective date of the split. proceedings nor fulfils the criteria under its domestic law
+for being placed in collective insolvency proceedings at the
+request of its creditors. In case of large undertakings, the
+beneficiary shall be in a situation comparable to a credit
+Article 4 rating of at least B-; and
+Calculation of gross grant equivalent
+1. This Regulation shall apply only to aid in respect of which
+(b) the guarantee does not exceed 80 % of the underlying loan
+it is possible to calculate precisely the gross grant equivalent of
+and either the amount guaranteed is EUR 1 500 000 (or
+the aid ex ante without any need to undertake a risk assessment
+EUR 750 000 for undertakings performing road freight
+(‘transparent aid’).
+transport) and the duration of the guarantee is five years
+or the amount guaranteed is EUR 750 000 (or EUR
+375 000 for undertakings performing road freight
+transport) and the duration of the guarantee is 10 years;
+2. Aid comprised in grants or interest rate subsidies shall be if the amount guaranteed is lower than these amounts
+considered as transparent de minimis aid. and/or the guarantee is for a period of less than five or
+10 years respectively, the gross grant equivalent of that
+guarantee shall be calculated as a corresponding proportion
+of the relevant ceiling laid down in Article 3(2); or
+3. Aid comprised in loans shall be considered as transparent
+de minimis aid if:
+(c) the gross grant equivalent has been calculated on the basis
+of safe-harbour premiums laid down in a Commission
+notice; or
+(a) the beneficiary is not subject to collective insolvency
+proceedings nor fulfils the criteria under its domestic law
+for being placed in collective insolvency proceedings at the
+request of its creditors. In case of large undertakings, the (d) before implementation,
+beneficiary shall be in a situation comparable to a credit
+rating of at least B-; and
+(i) the methodology used to calculate the gross grant
+equivalent of the guarantee has been notified to the
+Commission under another Commission Regulation in
+(b) the loan is secured by collateral covering at least 50 % of
+the State aid area applicable at that time and accepted
+the loan and the loan amounts to either EUR 1 000 000 (or
+by the Commission as being in line with the Guarantee
+EUR 500 000 for undertakings performing road freight
+Notice, or any successor Notice; and
+transport) over five years or EUR 500 000 (or EUR
+250 000 for undertakings performing road freight
+transport) over 10 years; if a loan is for less than those
+amounts and/or is granted for a period of less than five (ii) that methodology explicitly addresses the type of
+or 10 years respectively, the gross grant equivalent of that guarantee and the type of underlying transaction at
+loan shall be calculated as a corresponding proportion of stake in the context of the application of this Regu­
+the relevant ceiling laid down in Article 3(2); or lation.
+
+24.12.2013 EN Official Journal of the European Union L 352/7
+7. Aid comprised in other instruments shall be considered as 3. A Member State shall grant new de minimis aid in
+transparent de minimis aid if the instrument provides for a cap accordance with this Regulation only after having checked
+ensuring that the relevant ceiling is not exceeded. that this will not raise the total amount of de minimis aid
+granted to the undertaking concerned to a level above the
+relevant ceiling laid down in Article 3(2) and that all the
+conditions laid down in this Regulation are complied with.
+Article 5
+Cumulation
+1. De minimis aid granted in accordance with this Regulation
+4. Member States shall record and compile all the
+may be cumulated with de minimis aid granted in accordance
+information regarding the application of this Regulation. Such
+with Commission Regulation (EU) No 360/2012 ( 1 ) up to the
+records shall contain all information necessary to demonstrate
+ceiling laid down in that Regulation. It may be cumulated with
+that the conditions of this Regulation have been complied with.
+de minimis aid granted in accordance with other de minimis
+Records regarding individual de minimis aid shall be maintained
+regulations up to the relevant ceiling laid down in Article 3(2)
+for 10 fiscal years from the date on which the aid was granted.
+of this Regulation.
+Records regarding a de minimis aid scheme shall be maintained
+for 10 fiscal years from the date on which the last individual aid
+was granted under such a scheme.
+2. De minimis aid shall not be cumulated with State aid in
+relation to the same eligible costs or with State aid for the same
+risk finance measure, if such cumulation would exceed the
+highest relevant aid intensity or aid amount fixed in the 5. On written request, the Member State concerned shall
+specific circumstances of each case by a block exemption regu­ provide the Commission, within a period of 20 working days
+lation or a decision adopted by the Commission. De minimis aid or such longer period as may be fixed in the request, with all
+which is not granted for or attributable to specific eligible costs the information that the Commission considers necessary for
+may be cumulated with other State aid granted under a block assessing whether the conditions of this Regulation have been
+exemption regulation or a decision adopted by the Commission. complied with, and in particular the total amount of de minimis
+aid within the meaning of this Regulation and of other de
+minimis regulations received by any undertaking.
+Article 6
+Monitoring
+Article 7
+1. Where a Member State intends to grant de minimis aid in
+accordance with this Regulation to an undertaking, it shall Transitional provisions
+inform that undertaking in writing of the prospective amount
+1. This Regulation shall apply to aid granted before its entry
+of the aid expressed as a gross grant equivalent and of its de
+into force if the aid fulfils all the conditions laid down in this
+minimis character, making express reference to this Regulation
+Regulation. Any aid which does not fulfil those conditions will
+and citing its title and publication reference in the Official
+be assessed by the Commission in accordance with the relevant
+Journal of the European Union. Where de minimis aid is granted
+frameworks, guidelines, communications and notices.
+in accordance with this Regulation to different undertakings on
+the basis of a scheme and different amounts of individual aid
+are granted to those undertakings under that scheme, the
+Member State concerned may choose to fulfil that obligation
+by informing the undertakings of a fixed sum corresponding to 2. Any individual de minimis aid which was granted between
+the maximum aid amount to be granted under that scheme. In 2 February 2001 and 30 June 2007 and fulfils the conditions of
+such case, the fixed sum shall be used for determining whether Regulation (EC) No 69/2001 shall be deemed not to meet all
+the relevant ceiling laid down in Article 3(2) is reached. Before the criteria in Article 107(1) of the Treaty and shall therefore be
+granting the aid, the Member State shall obtain a declaration exempt from the notification requirement in Article 108(3) of
+from the undertaking concerned, in written or electronic form, the Treaty.
+about any other de minimis aid received to which this Regulation
+or other de minimis regulations apply during the previous two
+fiscal years and the current fiscal year.
+3. Any individual de minimis aid granted between 1 January
+2007 and 30 June 2014 and which fulfils the conditions of
+Regulation (EC) No 1998/2006 shall be deemed not to meet all
+2. Where a Member State has set up a central register of de
+the criteria in Article 107(1) of the Treaty and shall therefore be
+minimis aid containing complete information on all de minimis
+exempt from the notification requirement in Article 108(3) of
+aid granted by any authority within that Member State,
+the Treaty.
+paragraph 1 shall cease to apply from the moment the
+register covers a period of three fiscal years.
+( 1 ) Commission Regulation (EU) No 360/2012 of 25 April 2012 on the
+4. At the end of the period of validity of this Regulation, any
+application of Articles 107 and 108 of the Treaty on the Func­
+de minimis aid scheme which fulfils the conditions of this Regu­
+tioning of the European Union to de minimis aid granted to under­
+takings providing services of general economic interest (OJ L 114, lation shall remain covered by this Regulation for a further
+26.4.2012, p. 8). period of six months.
+
+L 352/8 EN Official Journal of the European Union 24.12.2013
+Article 8
+Entry into force and period of application
+This Regulation shall enter into force on 1 January 2014.
+It shall apply until 31 December 2020.
+This Regulation shall be binding in its entirety and directly applicable in all Member States.
+Done at Brussels, 18 December 2013.
+For the Commission
+The President
+José Manuel BARROSO
