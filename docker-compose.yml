@@ -39,7 +39,9 @@ services:
       - "8000:8000"
     volumes:
       - ./backend:/app/backend
-      - ./data:/data
+      - ./scraper:/app/scraper
+      - ./data:/app/data
+      - ./companies_sample.csv:/app/companies_sample.csv:ro
       - openai_cache:/cache
     networks:
       - incentives_network
@@ -61,11 +63,41 @@ services:
         condition: service_healthy
     volumes:
       - ./scraper:/app/scraper
-      - ./data:/data
+      - ./data:/app/data
       - openai_cache:/cache
     networks:
       - incentives_network
     command: python -m scraper.run
+
+  pipeline:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: incentives_pipeline
+    environment:
+      DB_DSN: postgresql+psycopg://postgres:postgres@db:5432/ai_challenge
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      MAX_DAILY_OPENAI_EUR: ${MAX_DAILY_OPENAI_EUR:-20}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ./backend:/app/backend
+      - ./scraper:/app/scraper
+      - ./data:/app/data
+      - openai_cache:/cache
+    networks:
+      - incentives_network
+    command: python -m backend.app.scripts.run_full_pipeline
+    deploy:
+      resources:
+        limits:
+          memory: 4G
+        reservations:
+          memory: 2G
+    profiles:
+      - pipeline
 
   prometheus:
     image: prom/prometheus:latest
