@@ -1,6 +1,3 @@
-# Roadmap e documentação de planeamento interno
-AI_Challenge_Roadmap_PT.md
-
 # Python
 __pycache__/
 *.py[cod]
@@ -23,15 +20,13 @@ wheels/
 .installed.cfg
 *.egg
 MANIFEST
-venv/
-env/
-ENV/
-.venv
 
-# Environment variables
-.env
-.env.local
-.env.*.local
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+deactivate/
 
 # IDEs
 .vscode/
@@ -41,40 +36,42 @@ ENV/
 *~
 .DS_Store
 
-# Logs
-*.log
-logs/
-
-# Database
-*.db
-*.sqlite
-*.sqlite3
-
-# Docker
-docker-compose.override.yml
-
-# Testing
-.coverage
-htmlcov/
-.pytest_cache/
-.tox/
-
-# Jupyter Notebook
-.ipynb_checkpoints
+# Environment variables
+.env
 
 # Cache
 .cache/
-*.cache
+*.db
+*.sqlite
 
-# OpenAI cache
-openai_cache/
+# Logs
+*.log
+reprocess_log.txt
 
-# Scraped data (raw and processed)
-data/raw/
-data/processed/
-data/cache/
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Docker
+*.dockerignore
+
+# Data files (optional - uncomment if you want to ignore)
+# data/raw/
+# data/processed/
+# companies_sample.csv
 
 # Temporary files
-tmp/
-temp/
 *.tmp
+*.bak
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
