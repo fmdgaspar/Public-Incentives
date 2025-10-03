@@ -18,6 +18,7 @@ from scraper.utils import (
     parse_budget,
     extract_text
 )
+from scraper.parsers.deterministic_extractor import DeterministicExtractor
 
 logger = structlog.get_logger()
 
@@ -27,6 +28,7 @@ class IncentiveParser:
     
     def __init__(self):
         self.base_url = BASE_URL
+        self.deterministic_extractor = DeterministicExtractor()
     
     def parse(self, raw_incentive: RawIncentive) -> Optional[IncentiveData]:
         """
@@ -48,10 +50,14 @@ class IncentiveParser:
             
             description = self._extract_description(soup)
             document_urls = self._extract_document_urls(soup)
-            publication_date = self._extract_publication_date(soup)
-            start_date = self._extract_start_date(soup)
-            end_date = self._extract_end_date(soup)
-            total_budget = self._extract_budget(soup)
+            
+            # Use DeterministicExtractor for improved extraction
+            extracted_data = self.deterministic_extractor.extract_from_html(raw_incentive.raw_html)
+            
+            publication_date = extracted_data.get('publication_date')
+            start_date = extracted_data.get('start_date')
+            end_date = extracted_data.get('end_date')
+            total_budget = extracted_data.get('total_budget')
             
             incentive_data = IncentiveData(
                 incentive_id=raw_incentive.incentive_id,
@@ -67,7 +73,11 @@ class IncentiveParser:
             
             logger.info("incentive_parsed",
                        incentive_id=raw_incentive.incentive_id,
-                       title=title[:50] if title else None)
+                       title=title[:50] if title else None,
+                       has_pub_date=publication_date is not None,
+                       has_start_date=start_date is not None,
+                       has_end_date=end_date is not None,
+                       has_budget=total_budget is not None)
             
             return incentive_data
             

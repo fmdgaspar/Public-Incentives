@@ -109,7 +109,8 @@ class EmbeddingService:
         self,
         db: Session,
         incentive: Incentive,
-        force_refresh: bool = False
+        force_refresh: bool = False,
+        document_id: Optional[str] = None
     ) -> Optional[IncentiveEmbedding]:
         """
         Generate and save embedding for an incentive.
@@ -141,7 +142,7 @@ class EmbeddingService:
         
         try:
             # Generate embedding
-            result = self.client.create_embedding(text, model=self.model)
+            result = self.client.create_embedding(text, model=self.model, document_id=document_id)
             
             # Create or update embedding record
             embedding_record = db.query(IncentiveEmbedding).filter(
@@ -184,7 +185,8 @@ class EmbeddingService:
         self,
         db: Session,
         company: Company,
-        force_refresh: bool = False
+        force_refresh: bool = False,
+        document_id: Optional[str] = None
     ) -> Optional[CompanyEmbedding]:
         """
         Generate and save embedding for a company.
@@ -216,7 +218,7 @@ class EmbeddingService:
         
         try:
             # Generate embedding
-            result = self.client.create_embedding(text, model=self.model)
+            result = self.client.create_embedding(text, model=self.model, document_id=document_id)
             
             # Create or update embedding record
             embedding_record = db.query(CompanyEmbedding).filter(

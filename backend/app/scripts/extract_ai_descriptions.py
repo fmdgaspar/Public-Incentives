@@ -88,15 +88,18 @@ def extract_ai_descriptions(
                 title=incentive.title[:50]
             )
             
-            # Extract
+            # Extract (with document URLs for PDF processing)
+            document_id = f"incentive_{incentive.incentive_id}"
             ai_desc = extractor.extract(
                 title=incentive.title,
-                description=incentive.description or ""
+                description=incentive.description or "",
+                document_urls=incentive.document_urls if incentive.document_urls else None,
+                document_id=document_id
             )
             
             if ai_desc:
-                # Update incentive
-                incentive.ai_description = ai_desc.model_dump()
+                # Update incentive - usar mode='json' para serializar dates e Decimals
+                incentive.ai_description = ai_desc.model_dump(mode='json')
                 db.commit()
                 
                 success_count += 1
@@ -174,8 +177,9 @@ def generate_embeddings(
     
     for i, incentive in enumerate(incentives, 1):
         try:
+            document_id = f"incentive_{incentive.incentive_id}"
             result = embedding_service.generate_incentive_embedding(
-                db, incentive, force_refresh=force
+                db, incentive, force_refresh=force, document_id=document_id
             )
             if result:
                 success_count += 1

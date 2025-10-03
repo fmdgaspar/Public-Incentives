@@ -6,6 +6,8 @@ Extracts structured JSON from incentive descriptions using GPT-4o-mini.
 
 import json
 from typing import Optional, List, Literal
+from datetime import date
+from decimal import Decimal
 
 import structlog
 from pydantic import BaseModel, Field, ValidationError
@@ -57,7 +59,31 @@ class AIDescription(BaseModel):
         description="Eligibility criteria or requirements (e.g., 'Sede em Portugal', 'Menos de 250 colaboradores')"
     )
     
+    publication_date: Optional[date] = Field(
+        default=None,
+        description="Publication date of the incentive (extract from text if available, format: YYYY-MM-DD)"
+    )
+    
+    start_date: Optional[date] = Field(
+        default=None,
+        description="Start date for applications (extract from text if available, format: YYYY-MM-DD)"
+    )
+    
+    end_date: Optional[date] = Field(
+        default=None,
+        description="End date for applications (extract from text if available, format: YYYY-MM-DD)"
+    )
+    
+    total_budget: Optional[Decimal] = Field(
+        default=None,
+        description="Total budget available for this incentive (extract from text if available, in euros)"
+    )
+    
     class Config:
+        json_encoders = {
+            date: lambda v: v.isoformat() if v else None,
+            Decimal: lambda v: float(v) if v else None,
+        }
         json_schema_extra = {
             "example": {
                 "caes": ["8413", "8520", "8517"],
@@ -65,7 +91,11 @@ class AIDescription(BaseModel):
                 "company_size": ["pme", "micro"],
                 "investment_objectives": ["Eficiência energética", "Energias renováveis"],
                 "specific_purposes": ["Painéis fotovoltaicos", "Sistemas de aquecimento eficiente"],
-                "eligibility_criteria": ["Empresas com sede em Portugal", "Investimento mínimo de €10.000"]
+                "eligibility_criteria": ["Empresas com sede em Portugal", "Investimento mínimo de €10.000"],
+                "publication_date": "2024-03-15",
+                "start_date": "2024-04-01",
+                "end_date": "2024-06-30",
+                "total_budget": 2000000.00
             }
         }
 
@@ -81,22 +111,44 @@ O JSON deve seguir EXATAMENTE este schema:
   "company_size": ["micro" | "pme" | "grande" | "não aplicável"],
   "investment_objectives": ["objetivo 1", "objetivo 2", ...],
   "specific_purposes": ["finalidade específica 1", ...],
-  "eligibility_criteria": ["critério 1", "critério 2", ...]
+  "eligibility_criteria": ["critério 1", "critério 2", ...],
+  "publication_date": "YYYY-MM-DD ou null",
+  "start_date": "YYYY-MM-DD ou null",
+  "end_date": "YYYY-MM-DD ou null",
+  "total_budget": número_em_euros_ou_null
 }
 
 REGRAS IMPORTANTES:
 1. Retorne APENAS o JSON, sem texto adicional antes ou depois
-2. Use valores vazios ([],  "") se a informação não estiver disponível
+2. Use valores vazios ([],  "", null) se a informação não estiver disponível
 3. CAE codes devem ser strings de 4-5 dígitos (ex: "8413", "47190")
 4. company_size só pode conter: "micro", "pme", "grande", ou "não aplicável"
 5. Se não mencionar tamanho de empresa, use ["não aplicável"]
 6. Seja específico mas conciso nas descrições
 7. Para localização, use nomes de cidades/regiões separados por vírgula
 
+ATENÇÃO ESPECIAL - DATAS E ORÇAMENTO:
+8. publication_date: Procure ATENTAMENTE por datas de publicação, aviso, ou lançamento do programa
+   - Termos comuns: "publicado em", "aviso de", "data de publicação", "lançado em"
+   - Formato: YYYY-MM-DD (ex: "2024-03-15")
+   
+9. start_date: Procure ATENTAMENTE por data de INÍCIO de candidaturas/submissões
+   - Termos comuns: "início", "abertura", "candidaturas a partir de", "submissões começam"
+   - Formato: YYYY-MM-DD
+   
+10. end_date: Procure ATENTAMENTE por data de ENCERRAMENTO/LIMITE de candidaturas
+    - Termos comuns: "fim", "até", "prazo", "encerramento", "candidaturas até", "limite"
+    - Formato: YYYY-MM-DD
+    
+11. total_budget: Procure ATENTAMENTE por valores de orçamento total, dotação, ou financiamento disponível
+    - Termos comuns: "orçamento", "dotação", "milhões €", "milhares €", "verba", "financiamento"
+    - Converta SEMPRE para número em euros (ex: "2 milhões €" = 2000000.0)
+    - Se mencionar "mil", multiplique por 1000; se mencionar "milhão/milhões", multiplique por 1000000
+
 EXEMPLOS:
 
 Exemplo 1 - Incentivo com informação completa:
-Input: "Apoio a PME do setor da construção (CAE 41, 42, 43) localizadas em Lisboa e Porto para eficiência energética. Investimento mínimo: €50.000."
+Input: "Apoio a PME do setor da construção (CAE 41, 42, 43) localizadas em Lisboa e Porto para eficiência energética. Investimento mínimo: €50.000. Publicado em 15/03/2024, candidaturas de 01/04/2024 a 30/06/2024. Orçamento total: €2.000.000."
 
 Output:
 {
@@ -105,7 +157,11 @@ Output:
   "company_size": ["pme"],
   "investment_objectives": ["Eficiência energética"],
   "specific_purposes": ["Reabilitação energética de edifícios"],
-  "eligibility_criteria": ["Investimento mínimo de €50.000", "Empresas do setor da construção"]
+  "eligibility_criteria": ["Investimento mínimo de €50.000", "Empresas do setor da construção"],
+  "publication_date": "2024-03-15",
+  "start_date": "2024-04-01",
+  "end_date": "2024-06-30",
+  "total_budget": 2000000.00
 }
 
 Exemplo 2 - Incentivo com informação limitada:
@@ -118,7 +174,11 @@ Output:
   "company_size": ["não aplicável"],
   "investment_objectives": ["Digitalização"],
   "specific_purposes": ["Transformação digital"],
-  "eligibility_criteria": []
+  "eligibility_criteria": [],
+  "publication_date": null,
+  "start_date": null,
+  "end_date": null,
+  "total_budget": null
 }
 
 Agora processe o documento fornecido."""
@@ -148,7 +208,9 @@ class LLMExtractor:
         self,
         title: str,
         description: str,
-        document_texts: Optional[List[str]] = None
+        document_texts: Optional[List[str]] = None,
+        document_urls: Optional[List[str]] = None,
+        document_id: Optional[str] = None
     ) -> Optional[AIDescription]:
         """
         Extract structured data from incentive text.
@@ -156,11 +218,26 @@ class LLMExtractor:
         Args:
             title: Incentive title
             description: Incentive description
-            document_texts: Optional list of document excerpts
+            document_texts: Optional list of document excerpts (already extracted)
+            document_urls: Optional list of document URLs (will extract PDFs)
             
         Returns:
             AIDescription object or None if extraction fails
         """
+        # Extract PDFs if URLs provided
+        if document_urls and not document_texts:
+            from scraper.extractors.pdf_extractor import PDFExtractor
+            pdf_extractor = PDFExtractor()
+            
+            logger.info("extracting_pdfs", urls_count=len(document_urls))
+            pdf_texts = pdf_extractor.get_all_pdfs_text_from_pages(
+                document_urls,
+                max_pdfs_per_page=2  # Limit to avoid too much context
+            )
+            
+            if pdf_texts:
+                document_texts = list(pdf_texts.values())
+                logger.info("pdfs_extracted", count=len(document_texts))
         # Prepare context
         context_parts = [
             f"TÍTULO: {title}",
@@ -194,7 +271,8 @@ class LLMExtractor:
                     ],
                     model="gpt-4o-mini",
                     temperature=0.0,
-                    response_format={"type": "json_object"}
+                    response_format={"type": "json_object"},
+                    document_id=document_id
                 )
                 
                 # Parse and validate
