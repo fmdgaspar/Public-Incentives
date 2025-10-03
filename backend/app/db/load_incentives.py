@@ -146,7 +146,7 @@ def main():
     if len(sys.argv) > 1:
         json_path = sys.argv[1]
     else:
-        json_path = "data/processed/incentives.json"
+        json_path = "/app/data/processed/incentives.json"
     
     try:
         count = load_incentives_from_json(json_path)
